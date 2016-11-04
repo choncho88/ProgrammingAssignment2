@@ -2,6 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
+## makeCache Matrix is the function to store the cache of the new matrix I exported the MASS library ofr more complicated matrix
 library(MASS)
 makeCacheMatrix <- function(x = matrix()) {
     m<-NULL
@@ -17,6 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## This function provide the inverse matrix and use the cache that is stored in the environment
 
 cacheSolve <- function(x, ...) {
     m<-x$getinv()
